@@ -39,12 +39,14 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+// import HelloWorld from '@/components/HelloWorld.vue'
 
 
 export default {
   name: 'HomeView',
-  components: { HelloWorld },
+  components: { 
+    // HelloWorld 
+  },
   data() {
     return {
       current: ['index'],
@@ -57,12 +59,18 @@ export default {
         this.$router.push({
           path: "/" + item
         });
-        this.showFlag = false;
+        // this.showFlag = false;
       } else {
         this.$router.push({
           path: "/" + item.key
         });
       }
+    },
+    home() {
+      // this.showFlag = false;
+      this.$router.push({
+        path: "/index"
+      });
     },
   }
 }
