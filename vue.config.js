@@ -5,7 +5,7 @@
 
 module.exports = {
   // transpileDependencies: true
-  publicPath: process.env.NODE_ENV === "production" ? "/tvds-lab/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/tvdslab/" : "/",
   // publicPath: '/',
   outputDir: 'dist',
   assetsDir: 'assets',
