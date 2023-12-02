@@ -38,13 +38,27 @@ const routes = [
     path: '/index',
     name: 'home',
     component: HomeView
-    // component: () => import('../views/HomeView.vue')
   },
   {
-    path: '/Links',
-    name: 'Links',
+    path: '/research',
+    name: 'research',
     component: () => import('../views/Research.vue')
-  }
+  },
+  {
+    path: '/team',
+    name: 'team',
+    component: () => import('../views/Team.vue')
+  },
+  {
+    path: '/publications',
+    name: 'publications',
+    component: () => import('../views/Publications.vue')
+  },
+  {
+    path: '/activities',
+    name: 'activities',
+    component: () => import('../views/Activities.vue')
+  },
   // {
   //   path: '/about',
   //   name: 'about',

@@ -12,14 +12,17 @@
                   <a-menu-item key="index">
                     <a-icon type="home"/>Home
                   </a-menu-item>
-                  <a-menu-item key="doc">
-                    <a-icon type="edit"/>Doc
+                  <a-menu-item key="research">
+                    <a-icon type="search"/>Research
                   </a-menu-item>
-                  <a-menu-item key="category">
-                    <a-icon type="folder"/>Tags
+                  <a-menu-item key="team">
+                    <a-icon type="team"/>Team
                   </a-menu-item>
-                  <a-menu-item key="Links">
-                    <a-icon type="user"/>Links
+                  <a-menu-item key="publications">
+                    <a-icon type="profile"/>Publications
+                  </a-menu-item>
+                  <a-menu-item key="activities">
+                    <a-icon type="schedule"/>Activities
                   </a-menu-item>
                 </a-menu>
               </a-col>
@@ -35,7 +38,7 @@
   
   export default {
     components: { 
-      // HelloWorld 
+
     },
     data() {
       return {
