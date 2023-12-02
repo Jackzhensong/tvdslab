@@ -4,6 +4,15 @@
 // })
 
 module.exports = {
+  css: {
+    loaderOptions: {
+      less: {
+        lessOptions: {
+          javascriptEnabled: true,
+        },
+      },
+    },
+  },
   // transpileDependencies: true
   publicPath: process.env.NODE_ENV === "production" ? "/tvdslab/" : "/",
   // publicPath: '/',
@@ -12,5 +21,5 @@ module.exports = {
   lintOnSave: process.env.NODE_ENV === 'development',
   devServer:{
     open: true,
-  }
+  },
 }
