@@ -1,16 +1,13 @@
 <template>
-  <div>
-    <div id="toptitle">
-      <h1>Publications</h1>
-      <div id="subtitle">
-        Visit
-        <a
-          href="https://scholar.google.com/citations?user=To7e1toAAAAJ&amp;hl=zh-CN"
-          target="&ldquo;blank&rdquo;"
-          >Google Scholar</a
-        >
-        for our latest publications.
-      </div>
+  <div class="textlayout">
+    <div>
+      Visit
+      <a
+        href="https://scholar.google.com/citations?user=To7e1toAAAAJ&amp;hl=zh-CN"
+        target="&ldquo;blank&rdquo;"
+        >Google Scholar</a
+      >
+      for our latest publications.
     </div>
     <h2>Recent Journal Papers</h2>
     <p>
@@ -135,4 +132,8 @@ export default {
 </script>
 
 <style lang="less" scoped>
+.textlayout {
+  margin: 70px 300px 0 300px;
+  text-align: left;
+}
 </style>

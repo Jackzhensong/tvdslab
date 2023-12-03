@@ -104,5 +104,18 @@ export default {
   border-top: none !important;
   border-bottom: 2px solid #fff;
 }
+
+.setting {
+  margin-left: 20px;
+  font-size: 18px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.avatar {
+  margin-left: 20px;
+  vertical-align: middle;
+  cursor: pointer;
+}
 </style>
   
