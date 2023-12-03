@@ -1,12 +1,6 @@
 <template>
-  <div class="about">
+  <div>
     <td id="layout-content">
-        <div id="toptitle">
-          <h1>Research
-          </h1>
-          <div id="subtitle">
-          </div>
-        </div>
         <h2>Themes
         </h2>
         <ul>
@@ -86,12 +80,12 @@
             </p>
           </li>
         </ul>
-        <div id="footer">
+        <!-- <div id="footer">
           <div id="footer-text">
             Page generated 2023-05-31 15:38:08 CST, by <a href="https://github.com/wsshin/jemdoc_mathjax"
               target="blank">jemdoc+MathJax</a>.
           </div>
-        </div>
+        </div> -->
       </td>
   </div>
 </template>

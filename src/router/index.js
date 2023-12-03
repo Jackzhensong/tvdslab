@@ -1,6 +1,12 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+
 import HomeView from '../views/HomeView.vue'
+const Research = () => import ('../views/Research')
+const Team = () => import ('../views/Team')
+const Publications = () => import ('../views/Publications')
+const Activities = () => import ( '../views/Activities')
+
 
 Vue.use(VueRouter)
 
@@ -42,22 +48,26 @@ const routes = [
   {
     path: '/research',
     name: 'research',
-    component: () => import('../views/Research.vue')
+    component: Research
+    // component: () => import('../views/Research.vue')
   },
   {
     path: '/team',
     name: 'team',
-    component: () => import('../views/Team.vue')
+    component: Team
+    // component: () => import('../views/Team.vue')
   },
   {
     path: '/publications',
     name: 'publications',
-    component: () => import('../views/Publications.vue')
+    component: Publications
+    // component: () => import('../views/Publications.vue')
   },
   {
     path: '/activities',
     name: 'activities',
-    component: () => import('../views/Activities.vue')
+    component: Activities
+    // component: () => import('../views/Activities.vue')
   },
   // {
   //   path: '/about',

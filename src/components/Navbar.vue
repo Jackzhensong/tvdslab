@@ -1,132 +1,108 @@
 <template>
-    <div class="header">
-        <a-row>
-          <a-col class="clos closLogo" :xs="16" :sm="16" :md="16" :lg="5" :xl="5" :xll="4">
-            <span class="logoName" @click="home">{{ "Time-Varying Data Science Labratory" }}</span>
-          </a-col>
-          <a-col class="clos" :xs="8" :sm="8" :md="8" :lg="19" :xl="19" :xll="20">
-            <a-row>
-              <!-- 展开menu -->
-              <a-col class="menu" :xs="0" :sm="0" :md="0" :lg="12" :xl="12">
-                <a-menu v-model="current" mode="horizontal" class="lineHeight" @click="pushmenu">
-                  <a-menu-item key="index">
-                    <a-icon type="home"/>Home
-                  </a-menu-item>
-                  <a-menu-item key="research">
-                    <a-icon type="search"/>Research
-                  </a-menu-item>
-                  <a-menu-item key="team">
-                    <a-icon type="team"/>Team
-                  </a-menu-item>
-                  <a-menu-item key="publications">
-                    <a-icon type="profile"/>Publications
-                  </a-menu-item>
-                  <a-menu-item key="activities">
-                    <a-icon type="schedule"/>Activities
-                  </a-menu-item>
-                </a-menu>
-              </a-col>
-              </a-row>
-          </a-col>
-        </a-row>
-    </div>
-  </template>
+  <div class="header">
+    <a-row :gutter="24" class="clos">
+      <a-col :span="6" style="left: 0px">
+        <span @click="home">{{ "Time-Varying Data Science Labratory" }}</span>
+      </a-col>
+      <a-col :span="12" class="menu">
+        <a-menu
+          v-model="current"
+          mode="horizontal"
+          class="lineHeight"
+          @click="pushmenu"
+        >
+          <a-menu-item key="index"> <a-icon type="home" />Home </a-menu-item>
+          <a-menu-item key="research">
+            <a-icon type="search" />Research
+          </a-menu-item>
+          <a-menu-item key="team"> <a-icon type="team" />Team </a-menu-item>
+          <a-menu-item key="publications">
+            <a-icon type="profile" />Publications
+          </a-menu-item>
+          <a-menu-item key="activities">
+            <a-icon type="schedule" />Activities
+          </a-menu-item>
+        </a-menu>
+      </a-col>
+    </a-row>
+  </div>
+</template>
   
   <script>
-  
-  
-  
-  export default {
-    components: { 
+export default {
+  components: {},
+  data() {
+    return {
+      current: ["index"],
+    };
+  },
 
+  methods: {
+    pushmenu(item) {
+      this.$router.push({
+        path: "/" + item.key,
+      });
     },
-    data() {
-      return {
-        current: ['index'],
-      };
+    home() {
+      this.$router.push({
+        path: "/",
+      });
     },
+  },
+};
+</script>
   
-    methods: {
-      pushmenu(item, flag) {
-        console.log("head =====");
-        if (flag) {
-          console.log("flag=====", flag);
-          this.$router.push({
-            path: "/" + item
-          });
-        } else {
-          console.log("second ======", item);
-          this.$router.push({
-            path: "/" + item.key
-          });
-        }
-      },
-      home() {
-        this.$router.push({
-          path: "/index"
-        });
-      },
-    }
+<style lang='less' scoped>
+#components-layout-demo-fixed .logo {
+  width: 400px;
+  height: 64px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 0px 0px 0px 0;
+  float: left;
+}
+
+.lineHeight {
+  line-height: 65px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.clos {
+  height: 65px;
+  line-height: 65px;
+}
+
+.header {
+  width: 100%;
+  height: 65px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 8px #f0f1f2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  z-index: 999;
+}
+
+@media screen and (max-width: 992px) {
+  .closLogo {
+    text-align: left;
   }
-  
-  </script>
-  
-  
-  
-  <style lang='less' scoped>
-  #components-layout-demo-fixed .logo {
-    width: 400px;
-    height: 64px;
-    background: rgba(255, 255, 255, 0.2);
-    margin: 0px 0px 0px 0;
-    float: left;
+  .logoName {
+    padding-left: 0px;
   }
-  
-  .lineHeight {
-    line-height: 65px;
-    display: inline-block;
-    box-sizing: border-box;
-  }
-  
-  .clos {
-    height: 65px;
-    line-height: 65px;
-  }
-  
-  .header {
-    width: 100%;
-    height: 65px;
-    box-sizing: border-box;
-    box-shadow: 0 2px 8px #f0f1f2;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: white;
-    z-index: 999;
-  }
-  
-  @media screen and (max-width: 992px) {
-    .closLogo {
-      text-align: left;
-    }
-    .logoName {
-      padding-left: 28px;
-    }
-  }
-  
-  .menu {
-    text-align: right;
-  }
-  
-  .menu .ant-menu-item-selected,
-  .menu .ant-menu-item-active {
-    border-top: 2px solid #1890ff !important;
-    border-bottom: none !important;
-  }
-  
-  .menu .ant-menu-item {
-    border-top: 2px solid #fff;
-    border-bottom: none !important;
-  }
-  </style>
+}
+.menu {
+  text-align: center;
+}
+.menu .ant-menu-item-selected,
+.menu .ant-menu-item-active {
+  border-top: none !important;
+  border-bottom: 2px solid #1890ff !important;
+}
+.menu .ant-menu-item {
+  border-top: none !important;
+  border-bottom: 2px solid #fff;
+}
+</style>
   
