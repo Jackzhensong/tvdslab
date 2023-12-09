@@ -1,10 +1,10 @@
 <template>
   <div class="header">
     <a-row :gutter="24" class="clos">
-      <a-col :span="6" style="left: 0px">
-        <span @click="home">{{ "Time-Varying Data Science Labratory" }}</span>
+      <a-col :span="8" style="left: 0px">
+        <span @click="home" class="logoName">{{ "TVDS Lab @ Tsinghua-Berkeley Shenzhen Institute" }}</span>
       </a-col>
-      <a-col :span="12" class="menu">
+      <a-col :span="16" class="menu">
         <a-menu
           v-model="current"
           mode="horizontal"
@@ -72,6 +72,11 @@ export default {
   line-height: 65px;
 }
 
+.narlog {
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+}
+
 .header {
   width: 100%;
   height: 65px;
@@ -92,8 +97,15 @@ export default {
     padding-left: 0px;
   }
 }
+
+.logoName {
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+
+}
 .menu {
-  text-align: center;
+  float: right;
 }
 .menu .ant-menu-item-selected,
 .menu .ant-menu-item-active {
@@ -103,6 +115,7 @@ export default {
 .menu .ant-menu-item {
   border-top: none !important;
   border-bottom: 2px solid #fff;
+  font-size: 16px;
 }
 
 .setting {
