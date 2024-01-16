@@ -2,7 +2,7 @@
   <div class="header">
     <a-row :gutter="24" class="clos">
       <a-col :span="8" style="left: 0px">
-        <span @click="home" class="logoName">{{ "TVDS Lab @ Tsinghua-Berkeley Shenzhen Institute" }}</span>
+        <span @click="home" class="logoName">{{ "Time-Varying Data Science Lab" }}</span>
       </a-col>
       <a-col :span="16" class="menu">
         <a-menu
@@ -28,7 +28,7 @@
   </div>
 </template>
   
-  <script>
+<script>
 export default {
   components: {},
   data() {
@@ -52,7 +52,7 @@ export default {
 };
 </script>
   
-<style lang='less' scoped>
+<style lang="less" scoped>
 #components-layout-demo-fixed .logo {
   width: 400px;
   height: 64px;
@@ -97,12 +97,12 @@ export default {
     padding-left: 0px;
   }
 }
-
 .logoName {
   font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 20px;
-  cursor: pointer;
-
+  font-size: 30px;
+  font-weight: 500;
+  color: #061d34;
+  // cursor: pointer;
 }
 .menu {
   float: right;
