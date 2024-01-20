@@ -1,131 +1,223 @@
 <template>
   <div class="textlayout">
-    <div>
+    <h2>Journal Papers</h2>
+    <span>      
       Visit
-      <a
-        href="https://scholar.google.com/citations?user=To7e1toAAAAJ&amp;hl=zh-CN"
-        target="&ldquo;blank&rdquo;"
-        >Google Scholar</a
-      >
+      <a href="https://scholar.google.com/citations?user=To7e1toAAAAJ&amp;hl=zh-CN">Google Scholar</a>
       for our latest publications.
+    </span>
+    <div> 
+      <a-divider />
+      <a-row>
+        <a-col :span="2">
+          <span class="date">2022</span>
+        </a-col>
+        <a-col :span="22">
+          <span class="pubtitle">
+            Cauchy-Rician Model for Backscattering in Urban SAR Images.
+          </span>
+          <br />
+            Oktay Karakus, <b>Ercan E Kuruoglu</b>, Alin Achim, and Mustafa A Altinkaya.<br />
+            In: IEEE Geoscience and Remote Sensing Letters 19 (2022), pp. 1-5.
+        </a-col>
+        <a-divider />
+        <a-col :span="22" :offset="2">
+            <span class="pubtitle">
+            Unsupervised learning of light field depth estimation with spatial and angular consistencies. 
+            </span> 
+            <br />
+            Lili Lin, Qiujian Li, Bin Gao, Yuxiang Yan, Wenhui Zhou, and <b>Ercan Engin Kuruoglu</b>.  <br />
+            In: Neurocomputing (2022).
+        </a-col>
+        <a-divider />
+        <a-col :span="22" :offset="2">
+            <span class="pubtitle">
+              Thompson Sampling on Asymmetric -Stable Bandits. 
+            </span> 
+            <br />
+            Zhendong Shi, <b>Ercan E. Kuruoglu</b>, and Xiaoli Wei.  <br />
+            In: (2022).
+        </a-col>
+        <a-divider />
+        <a-col :span="22" :offset="2">
+            <span class="pubtitle">
+              Adaptive Sign Algorithm for Graph Signal Processing. 
+            </span> 
+            <br />
+            Yi Yan, <b>Ercan E Kuruoglu</b>, and Mustafa A Altinkaya.  <br />
+            Signal Processing, Volume 200, 2022, 108662, https:doi.org 10.1016j.sigpro.2022.108662.<br />
+        </a-col>
+        <a-divider />
+        <a-col :span="22" :offset="2">
+            <span class="pubtitle">
+              Graph Normalized-LMP Algorithm for Signal Estimation Under Impulsive Noise.
+            </span> 
+            <br />
+            Yi Yan, Radwa Adel, and <b>Ercan Engin Kuruoglu</b>.  <br />
+            Journal of Signal Processing Systems, 2022, https:doi.org 10.1007s11265-022-01802-2.<br />
+        </a-col>
+        <a-divider />
+
+        <a-col :span="2">
+          <span class="date">2021</span>
+        </a-col>
+        <a-col :span="22">
+          <span class="pubtitle">
+            Modeling brain connectivity dynamics in functional magnetic resonance imaging via particle filtering.
+          </span>
+          <br />
+          Pierfrancesco Ambrosi, Mauro Costagli, <b>Ercan E Kuruoglu</b>, Laura Biagi, Guido Buonincontri, and Michela Tosetti.<br />
+          In: Brain Informatics 8.1 (2021), pp. 1-12.
+        </a-col>
+        <a-divider />
+        <a-col :span="22" :offset="2">
+            <span class="pubtitle">
+              A generalized Gaussian extension to the Rician distribution for SAR image modeling.
+            </span> 
+            <br />
+            Oktay Karakus, <b>Ercan E Kuruoglu</b>, and Alin Achim.  <br />
+            In: IEEE Transactions on Geoscience and Remote Sensing 60 (2021), pp. 1-15.
+        </a-col>
+        <a-divider />
+        <a-col :span="22" :offset="2">
+            <span class="pubtitle">
+              Skewed t-Distribution for Hyperspectral Anomaly Detection Based on Autoencoder.
+            </span> 
+            <br />
+            Koray Kayabol, Ensar Burak Aytekin, Sertac Arisoy, and <b>Ercan Engin Kuruoglu</b>.  <br />
+            In: IEEE Geoscience and Remote Sensing Letters 19 (2021), pp. 1-5.
+        </a-col>
+        <a-divider />
+        <a-col :span="22" :offset="2">
+            <span class="pubtitle">
+              30th Anniversary of Digital Signal Processing: a Review Journal.
+            </span> 
+            <br />
+            <b>Ercan E Kuruoglu</b>.  <br />
+            2021.
+        </a-col>
+        <a-divider />
+        <a-col :span="22" :offset="2">
+            <span class="pubtitle">
+              Letter from the Editor: While I weigh the anchor: Editor’s farewell.
+            </span> 
+            <br />
+            <b>Ercan E Kuruoglu</b>.  <br />
+            In: Digital Signal Processing 119 (2021), p.103296.
+        </a-col>
+        <a-divider />
+        <a-col :span="22" :offset="2">
+            <span class="pubtitle">
+              Modelling TimeVarying Epidemiological Parameters for COVID-19.
+            </span> 
+            <br />
+            <b>Ercan Engin Kuruoglu</b> and Yang Li.  <br />
+            In: Ercim News (2021), pp.25-26.
+        </a-col>
+        <a-divider />
+        <a-col :span="22" :offset="2">
+            <span class="pubtitle">
+              Insights on features’ contribution to desalination dynamics and capacity of capacitive deionization through machine learning study.
+            </span> 
+            <br />
+            Farzin Saffarimiandoab, Riccardo Mattesini, Wanyi Fu, <b>Ercan Engin Kuruoglu</b>, and Xihui Zhang.  <br />
+            In: Desalination 515 (2021), p. 115197.
+        </a-col>
+        <a-divider />
+        <a-col :span="22" :offset="2">
+            <span class="pubtitle">
+              Interpretable machine learning modeling of capacitive deionization for contribution analysis of electrode and process features.
+            </span> 
+            <br />
+            Farzin Saffarimiandoab, Riccardo Mattesini, Wanyi Fu, <b>Ercan Engin Kuruoglu</b>, and Xihui Zhang.  <br />
+            In: Journal of Materials Chemistry A 9.4 (2021), pp.2259-2268.
+        </a-col>
+        <a-divider />
+        <a-col :span="22" :offset="2">
+            <span class="pubtitle">
+              Robust dense light field reconstruction from sparse noisy sampling.
+            </span> 
+            <br />
+            Wenhui Zhou, Jiangwei Shi, Yongjie Hong, Lili Lin, and <b>Ercan Engin Kuruoglu</b>.  <br />
+            In: Signal Processing 186 (2021), p. 108121.
+        </a-col>
+        <a-divider />
+      </a-row>
     </div>
-    <h2>Recent Journal Papers</h2>
-    <p>
-      1. Oktay Karakus, Ercan E Kuruoglu, Alin Achim, and Mustafa A Altinkaya.
-      Cauchy-Rician Model for Backscattering in Urban SAR Images. In: IEEE
-      Geoscience and Remote Sensing Letters 19 (2022), pp. 1-5.<br />
 
-      2. Lili Lin, Qiujian Li, Bin Gao, Yuxiang Yan, Wenhui Zhou, and Ercan
-      Engin Kuruoglu. Unsupervised learning of light field depth estimation with
-      spatial and angular consistencies. In: Neurocomputing (2022).<br />
+    <h2>Conference Papers</h2>
+    <a-divider />
+    <div> 
+      <a-row>
+        <a-col :span="2">
+          <span class="date">2021</span>
+        </a-col>
+        <a-col :span="22">
+          <span class="pubtitle">
+            Enhancing Neural Network Based Hybrid Learning with Empirical Wavelet Transform for Time Series Forecasting.
+          </span>
+          <br />
+          Bunchalit Eua-Arporn, Shao-Lun Huang, and <b>Ercan Engin Kuruoglu</b>. <br />
+          In: 2021 IEEE 33rd International Conference on Tools with Artificial Intelligence (ICTAI). IEEE. 2021, pp.386-390.
+        </a-col>
+        <a-divider />
+        <a-col :span="22" :offset="2">
+            <span class="pubtitle">
+              A Hybrid Model Integrating LSTM and Garch for Bitcoin Price Prediction.
+            </span> 
+            <br />
+            Zidi Gao, Yiwen He, and <b>Ercan Engin Kuruoglu</b>.  <br />
+            In: 2021 IEEE 31st International Workshop on Machine Learning for Signal Processing(MLSP). IEEE. 2021, pp. 1-6.
+        </a-col>
+        <a-divider />
+        <a-col :span="22" :offset="2">
+            <span class="pubtitle">
+              A modification of Rician distribution for SAR image modelling.
+            </span> 
+            <br />
+            Oktay Karakus, <b>Ercan E Kuruoglu</b>, and Alin Achim.  <br />
+            In: EUSAR 2021; 13th European Conference on Synthetic Aperture Radar. VDE. 2021, pp. 1-6.
+        </a-col>
+        <a-divider />
+        <a-col :span="22" :offset="2">
+            <span class="pubtitle">
+              How Does Policy Stringency Affect the Spread of COVID-19 Pandemic? A Country Level Study.
+            </span> 
+            <br />
+            Yicong Li, Calvin Chan, Yang Li, and <b>Ercan Engin Kuruoglu</b>.  <br />
+            In: 2021 29th European Signal Processing Conference (EUSIPCO). IEEE. 2021, pp. 1965-1969.
+        </a-col>
+        <a-divider />
+        <a-col :span="22" :offset="2">
+            <span class="pubtitle">
+              PAC-Bayes Information Bottleneck.
+            </span> 
+            <br />
+            Zifeng Wang, Shao-Lun Huang, <b>Ercan E Kuruoglu</b>, Jimeng Sun, Xi Chen, and Yefeng Zheng.  <br />
+            In: arXiv preprint arXiv:2109.14509 (2021).
+        </a-col>
+        <a-divider />
+        <a-col :span="22" :offset="2">
+            <span class="pubtitle">
+              Adaptive Normalized LMP Estimation for Graph Signal Processing.
+            </span> 
+            <br />
+            Yi Yan, Radwa Adel, and <b>Ercan E Kuruoglu</b>.  <br />
+            In: 2021 IEEE 31st International Workshop on Machine Learning for Signal Processing (MLSP). IEEE. 2021, pp.1-6.
+        </a-col>
+      </a-row>
+    </div>
 
-      3. Zhendong Shi, Ercan E. Kuruoglu, and Xiaoli Wei.Thompson Sampling on
-      Asymmetric -Stable Bandits. In: (2022).<br />
-
-      4. Yi Yan, Ercan E Kuruoglu, and Mustafa A Altinkaya. Adaptive Sign
-      Algorithm for Graph Signal Processing. Signal Processing, Volume 200,
-      2022, 108662, https:<i
-      ></i>doi.org<i>10.1016</i>j.sigpro.2022.108662.<br />
-
-      5. Yi Yan, Radwa Adel, and Ercan Engin Kuruoglu. Graph Normalized-LMP
-      Algorithm for Signal Estimation Under Impulsive Noise. Journal of Signal
-      Processing Systems, 2022, https:<i
-      ></i>doi.org<i>10.1007</i>s11265-022-01802-2.<br />
-
-      6. Pierfrancesco Ambrosi, Mauro Costagli, Ercan E Kuruoglu, Laura Biagi,
-      Guido Buonincontri, and Michela Tosetti. Modeling brain connectivity
-      dynamics in functional magnetic resonance imaging via particle filtering.
-      In: Brain Informatics 8.1 (2021), pp. 1-12.<br />
-
-      7. Oktay Karakus, Ercan E Kuruoglu, and Alin Achim. A generalized Gaussian
-      extension to the Rician distribution for SAR image modeling. In: IEEE
-      Transactions on Geoscience and Remote Sensing 60 (2021), pp. 1-15.<br />
-
-      8. Koray Kayabol, Ensar Burak Aytekin, Sertac Arisoy, and Ercan Engin
-      Kuruoglu. Skewed t-Distribution for Hyperspectral Anomaly Detection Based
-      on Autoencoder. In: IEEE Geoscience and Remote Sensing Letters 19 (2021),
-      pp. 1-5.<br />
-
-      9. Ercan E Kuruoglu. 30th Anniversary of Digital Signal Processing: a
-      Review Journal. 2021.<br />
-
-      10. Ercan Engin Kuruoglu. Letter from the Editor: While I weigh the
-      anchor: Editor’s farewell. In: Digital Signal Processing 119 (2021), p.
-      103296.<br />
-
-      11. Ercan Engin Kuruoglu and Yang Li. Modelling TimeVarying
-      Epidemiological Parameters for COVID-19. In: Ercim News (2021), pp.
-      25-26.<br />
-
-      12. Farzin Saffarimiandoab, Riccardo Mattesini, Wanyi Fu, Ercan Engin
-      Kuruoglu, and Xihui Zhang. Insights on features’ contribution to
-      desalination dynamics and capacity of capacitive deionization through
-      machine learning study. In: Desalination 515 (2021), p. 115197.<br />
-
-      13. Farzin Saffarimiandoab, Riccardo Mattesini, Wanyi Fu, Ercan Engin
-      Kuruoglu, and Xihui Zhang. Interpretable machine learning modeling of
-      capacitive deionization for contribution analysis of electrode and process
-      features. In: Journal of Materials Chemistry A 9.4 (2021), pp.
-      2259-2268.<br />
-
-      14. Wenhui Zhou, Jiangwei Shi, Yongjie Hong, Lili Lin, and Ercan Engin
-      Kuruoglu. Robust dense light field reconstruction from sparse noisy
-      sampling. In: Signal Processing 186 (2021), p. 108121.<br />
-    </p>
-    <h2>Recent Conference Papers</h2>
-    <p>
-      1. Bunchalit Eua-Arporn, Shao-Lun Huang, and Ercan Engin Kuruoglu.
-      Enhancing Neural Network Based Hybrid Learning with Empirical Wavelet
-      Transform for Time Series Forecasting. In: 2021 IEEE 33rd International
-      Conference on Tools with Artificial Intelligence (ICTAI). IEEE. 2021, pp.
-      386-390.<br />
-
-      2. Zidi Gao, Yiwen He, and Ercan Engin Kuruoglu. A Hybrid Model
-      Integrating LSTM and Garch for Bitcoin Price Prediction. In: 2021 IEEE
-      31st International Workshop on Machine Learning for Signal Processing
-      (MLSP). IEEE. 2021, pp. 1-6.<br />
-
-      3. Oktay Karakus, Ercan E Kuruoglu, and Alin Achim. A modification of
-      Rician distribution for SAR image modelling. In: EUSAR 2021; 13th European
-      Conference on Synthetic Aperture Radar. VDE. 2021, pp. 1-6.<br />
-
-      4. Yicong Li, Calvin Chan, Yang Li, and Ercan Engin Kuruoglu. How Does
-      Policy Stringency Affect the Spread of COVID-19 Pandemic? A Country Level
-      Study. In: 2021 29th European Signal Processing Conference (EUSIPCO).
-      IEEE. 2021, pp. 1965-1969.<br />
-
-      5. Zifeng Wang, Shao-Lun Huang, Ercan E Kuruoglu, Jimeng Sun, Xi Chen, and
-      Yefeng Zheng. PAC-Bayes Information Bottleneck. In: arXiv preprint
-      arXiv:2109.14509 (2021).<br />
-
-      6. Yi Yan, Radwa Adel, and Ercan E Kuruoglu. Adaptive Normalized LMP
-      Estimation for Graph Signal Processing. In: 2021 IEEE 31st International
-      Workshop on Machine Learning for Signal Processing (MLSP). IEEE. 2021, pp.
-      1-6.<br />
-
-      7. Oktay Karakus, Ercan E Kuruoglu, and Alin Achim. Modelling sea clutter
-      in SAR images using LaplaceRician distribution. In: ICASSP 2020-2020 IEEE
-      International Conference on Acoustics, Speech and Signal Processing
-      (ICASSP). IEEE. 2020, pp. 1454-1458.<br />
-
-      8. Oktay Karakus, Ercan E Kuruoglu, and Mustafa A. Altinkaya. Modelling
-      impulsive noise in indoor powerline communication systems. Signal, Image
-      and Video Processing 14.8 (2020): 1655-1661. 9. Zifeng Wang, Xi Chen, Rui
-      Wen, Shao-Lun Huang, Ercan Kuruoglu, and Yefeng Zheng. Information
-      theoretic counterfactual learning from missing-not-atrandom feedback. In:
-      Advances in Neural Information Processing Systems 33 (2020), pp.
-      1854-1864.<br />
-
-      <br />
-    </p>
   </div>
 </template>
 
 <script>
+
 export default {
   name: "Publications",
   data() {
-    return {};
+    return {
+    };
   },
   methods: {},
 };
@@ -135,5 +227,45 @@ export default {
 .textlayout {
   margin: 70px 300px 0 300px;
   text-align: left;
+}
+.pubtitle {
+  color: #428bca
+}
+.date {
+  font-weight: 700;
+  font-size: larger;
+}
+
+.ant-divider-horizontal {
+    display: block;
+    clear: both;
+    width: 100%;
+    min-width: 100%;
+    height: 1px;
+    margin: 0 0;
+}
+
+.ant-col-offset-2 {
+    margin-left: 8.33333333%;
+}
+
+.ant-col-22 {
+    display: block;
+    box-sizing: border-box;
+    width: 91.66666667%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.ant-col-2 {
+    display: block;
+    box-sizing: border-box;
+    width: 8.33333333%;
+    margin-top: 12px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
 }
 </style>

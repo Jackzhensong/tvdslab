@@ -11,7 +11,8 @@ import {
   Input,
   Card,
   Avatar,
-  Divider
+  Divider,
+  List
 } from 'ant-design-vue'
 
 Vue.use(Menu)
@@ -22,6 +23,7 @@ Vue.use(Input)
 Vue.use(Avatar)
 Vue.use(Card)
 Vue.use(Divider)
+Vue.use(List)
 
 
 // Vue.component("Col", Col);
