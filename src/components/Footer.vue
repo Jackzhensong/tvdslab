@@ -5,13 +5,13 @@
 
         <div class="Copyright"> 
           <ul class="helpLink">
-            <li>关于我们
+            <li>About us
               <span class="space"></span>
             </li>
-            <li>联系我们</li>
+            <li>Contact us</li>
           </ul>
-          <p>Email: tbsi@tbsi.tsinghua.edu.cn</p>
-          <p>地址：中国广东省深圳市南山区深圳大学城清华大学国际研究生院信息大楼11楼</p>
+          <p>Secretary: Shengnan Li, lishengnan@sz.tsinghua.edu.cn</p>
+          <p>Address: Information Building, Room 1106, Tsinghua Shenzhen International Graduate School, Shenzhen, Guangdong, China (518055)</p>
           <p>版权所有 © 清华 - 伯克利深圳学院 粤ICP备18046147号-1</p>
         </div>
       </div>
@@ -62,7 +62,7 @@ export default{
       padding: 20px;
 
       .helpLink {
-        text-align: center;
+        text-align: left;
 
         li {
           display: inline;
@@ -78,8 +78,8 @@ export default{
       }
 
       p {
-        margin: 10px 0;
-        text-align: center;
+        margin: 10px 40px;
+        text-align: left;
       }
     }
   }

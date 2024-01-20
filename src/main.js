@@ -8,7 +8,10 @@ import {
   Col, 
   Row, 
   Icon,
-  Input
+  Input,
+  Card,
+  Avatar,
+  Divider
 } from 'ant-design-vue'
 
 Vue.use(Menu)
@@ -16,6 +19,9 @@ Vue.use(Col)
 Vue.use(Row)
 Vue.use(Icon)
 Vue.use(Input)
+Vue.use(Avatar)
+Vue.use(Card)
+Vue.use(Divider)
 
 
 // Vue.component("Col", Col);

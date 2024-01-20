@@ -1,10 +1,10 @@
 <template>
   <div class="header">
     <a-row :gutter="24" class="clos">
-      <a-col :span="8" style="left: 0px">
+      <a-col :span="6" style="left: 10px">
         <span @click="home" class="logoName">{{ "Time-Varying Data Science Lab" }}</span>
       </a-col>
-      <a-col :span="16" class="menu">
+      <a-col :span="18" class="menu">
         <a-menu
           v-model="current"
           mode="horizontal"
@@ -99,12 +99,13 @@ export default {
 }
 .logoName {
   font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
   color: #061d34;
   // cursor: pointer;
 }
 .menu {
+  left: -100px;
   float: right;
 }
 .menu .ant-menu-item-selected,
