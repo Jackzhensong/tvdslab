@@ -1,36 +1,53 @@
 <template>
   <div class="textlayout">
-    <table>
-    <tr>
-      <td align="left">
-        <a
-          href="https://www.tbsi.edu.cn/_upload/article/images/8e/06/44c6180e44e18e1cc0b2a3faefde/a2ba2615-44e5-4831-beb0-408f2dcaf176.png"
-          ><img
-            src="../assets/photo/bio.png"
-            alt="alt text"
-            width="100px"
-            height="110px" /></a
-        >
-      </td>
-      <td align="left">
-        <p>
-          PI: Ercan Engin Kuruoglu<br />
-          Professor, Ph.D. Supervisor<br />
-          Time-Varying Data Science (TVDS) Group<br />
-          <a  
-            href="https://www.tbsi.edu.cn/main.htm"
-            target="&ldquo;blank&rdquo;"
-            >Tsinghua-Berkeley Shenzhen Institute</a
-          >,
-          <a href="https://www.tsinghua.edu.cn/" target="&ldquo;blank&rdquo;"
-            >Tsinghua University</a
-          ><br />
-        </p>
-      </td>
-    </tr>
-    </table>
+    <a-carousel autoplay arrows>
+      <div
+        slot="prevArrow"
+        class="custom-slick-arrow"
+        style="left: 10px;zIndex: 1"
+      >
+        <a-icon type="left-circle" />
+      </div>
+      <div slot="nextArrow" class="custom-slick-arrow" style="right: 10px">
+        <a-icon type="right-circle" />
+      </div>
+      <div>
+        <img 
+          src="../assets/home/home1.jpg"
+          alt="alt text"
+          height="400px"
+          width="100%"
+          >
+      </div>
+      <div>        
+        <img 
+          src="../assets/home/home2.jpg"
+          alt="alt text"
+          height="400px"
+          width="100%"
+          >
+      </div>
+      <div>
+        <img 
+          src="../assets/home/home3.png"
+          alt="alt text"
+          height="400px"
+          width="100%"
+          >
+      </div>
+      <div>
+        <img 
+          src="../assets/home/home4.jpg"
+          alt="alt text"
+          height="400px"
+          width="100%"
+          >
+      </div>
+    </a-carousel>
+
+
     <p>
-      <a href="index.html" target="&ldquo;blank&rdquo;">TVDS Group</a> aims at
+      <a>TVDS Group</a> aims at
       studying time evolution in data science. Our research interests include
       Statistical Signal Processing, Bayesian Learning, Computational Biology
       and Geosciences, Remote Sensing, etc. We are looking for the people with
@@ -87,19 +104,7 @@
         </p>
       </li>
     </ul>
-    <h2>Contact</h2>
-    <p>
-      Secretary: Shengnan Li, lishengnan@sz.tsinghua.edu.cn<br />
-      Address: Information Building, Room 1106, Tsinghua Shenzhen International
-      Graduate School, Shenzhen, Guangdong, China (518055).<br />
-    </p>
-    <!-- <div id="footer">
-          <div id="footer-text">
-            Page generated 2023-05-31 16:05:24 CST, by <a href="https://github.com/wsshin/jemdoc_mathjax"
-              target="blank">jemdoc+MathJax</a>.
-          </div>
-        </div> -->
-    <!-- </td> -->
+
   </div>
 </template>
 
@@ -113,10 +118,33 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="less" scoped>
+<style scoped>
 .textlayout {
   margin: 70px 300px 0 300px;
   text-align: left;
+}
+
+.ant-carousel >>> .slick-slide {
+  text-align: center;
+  height: 400px;
+  line-height: 160px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.ant-carousel >>> .custom-slick-arrow {
+  width: 25px;
+  height: 25px;
+  font-size: 25px;
+  color: #fff;
+  background-color: rgba(31, 45, 61, 0.11);
+  opacity: 0.3;
+}
+.ant-carousel >>> .custom-slick-arrow:before {
+  display: none;
+}
+.ant-carousel >>> .custom-slick-arrow:hover {
+  opacity: 0.5;
 }
 
 h3 {

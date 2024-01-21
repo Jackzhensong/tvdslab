@@ -15,6 +15,12 @@
           Professor, Ph.D. Supervisor<br />
           <a-icon type="mail" />
           E-mail: kuruoglu@sz.tsinghua.edu.cn<br />
+          Time-Varying Data Science (TVDS) Group<br />
+          <a  
+            href="https://www.tbsi.edu.cn/main.htm"
+            target="&ldquo;blank&rdquo;"
+            >Tsinghua-Berkeley Shenzhen Institute</a
+          >
           <a href="biography.html" >Biography</a>
         </a-col>
       </a-row>
