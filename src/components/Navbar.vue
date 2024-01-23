@@ -12,13 +12,13 @@
           @click="pushmenu"
         >
           <a-menu-item key="index"> <a-icon type="home" />Home </a-menu-item>
-          <a-menu-item key="research">
-            <a-icon type="search" />Research
-          </a-menu-item>
           <a-menu-item key="publications">
             <a-icon type="profile" />Publications
           </a-menu-item>
           <a-menu-item key="team"> <a-icon type="team" />Team </a-menu-item>
+          <a-menu-item key="research">
+            <a-icon type="search" />Vacancies
+          </a-menu-item>
           <a-menu-item key="activities">
             <a-icon type="schedule" />Activities
           </a-menu-item>

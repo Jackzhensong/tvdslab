@@ -44,67 +44,139 @@
           >
       </div>
     </a-carousel>
-
-
-    <p>
+    <div>
+    <h2>Lab Introduction</h2>
       <a>TVDS Group</a> aims at
       studying time evolution in data science. Our research interests include
       Statistical Signal Processing, Bayesian Learning, Computational Biology
       and Geosciences, Remote Sensing, etc. We are looking for the people with
-      the same interest!<br />
-    </p>
-    <h2>Opportunities</h2>
-    <ul>
-      <li>
-        <p>
-          Post-Doctoral Positions in Statistical Learning for Data Science<br />
-          Post-Doctoral Position (2 Years) in the Time-varying Data Science
-          Group of Prof. Ercan E Kuruoglu, Institute of Information and Data
-          Science and Tsinghua-Berkeley Shenzhen Institute of Tsinghua
-          University Shenzhen International Graduate School, Shenzhen, China.
-          This will start from 1 September 2023 and applications are considered
-          until the positions are filled. <br />
-        </p>
-      </li>
-      <li>
-        <p>
-          Postdoc 1: Topological Data Analysis for Statistical Learning<br />
-          Keywords: Topological data analysis, graph machine learning,
-          time-varying graph analysis, rare event modelling<br />
-          The objective is to develop ground-breaking topological signal
-          processing and statistical learning methods for high-dimensional data.
-          The focus lies on conducting fundamental research to derive scalable
-          methods with robustness and statistical guarantees that form a bridge
-          between existing topological data analysis methods and statistical
-          learning methods with an eye on applications with time-varying data.
-          Various applications including climate data, financial data, genomic
-          data will be considered though the main emphasis will be in
-          methodology development.<br />
-        </p>
-      </li>
-      <li>
-        <p>
-          Postdoc 2: Stochastic deep learning <br />
-          Keywords: Bayesian machine learning, non-stationary data analysis<br />
-          This project aims to develop a deep learning methodology which is
-          dynamic and statistical at the same time, that is non-deterministic
-          and non-stationary. We will explore various methods from signal
-          processing extending them to nonlinear systems and hence applying to
-          neural networks.<br />
-          <br />
+      the same interest! Our research themes including but not limited to:
+      <ul>
+        <li>
+          <p>Statistical Signal and Image Processing</p>
+        </li>
+        <li>
+          <p>Bayesian Learning and Statistical Machine Learning</p>
+        </li>
+        <li>
+          <p>Data Science for Computational Biology and Geosciences</p>
+        </li>
+        <li>
+          <p>Remote Sensing</p>
+        </li>
+        <li>
+          <p>System and Noise Modelling</p>
+        </li>
+        <li>
+          <p>Graphical Models</p>
+        </li>
+        <li>
+          <p>Information and Coding Theory</p>
+        </li>
+      </ul>
+    </div>
+    <h2>Ongoing Projects</h2>
+    <div> 
+      <a-row :gutter="[16,48]" type="flex" align="bottom">
+        <a-col :span="12">
+          <span class="themeTitle">Stochastic Graphs</span>
+          Recently emerged Graph signal processing (GSP) techniques provide efficient solutions to deal with irregularly structured data. 
+          GSP techniques have already been applied in modeling brain functional connectivity, 
+          spatial temperature data, transportation flows, monitoring 5G signal strength, 
+          sensor networks in smart cities, structuring geometric data, and modeling transportation flows. 
+          The spectral analysis of GSP is the backbone of the Graph Convolutional Neural network, one of the most well-known graph deep learning architectures.
+        </a-col>
+        <a-col :span="12">
+          <img 
+            src="../assets/projects/statistic_graph.png"
+            alt="alt text"
+            height="100%"
+            width="100%"
+          > 
+        </a-col>
+      </a-row>
+      <a-divider />
+      <a-row :gutter="[16,48]" type="flex" align="bottom">
+        <a-col :span="12">
+          <span class="themeTitle">Remote Sensing</span>
+          Synthetic aperture radar (SAR) is a powerful radar technology commonly adopted for airborne and spaceborne geo-sensing and mapping applications due to its significant advantages in high azimuthal resolution and weather-independent operations. 
+          Upon acquisition of SAR images, a histogram representing the distribution of the image pixel values is drafted, 
+          and a proper model is required to obtain precise knowledge of the statistical properties of the image data to characterize the surface on which the image is produced.
+        </a-col>
+        <a-col :span="12">
+          <img 
+            src="../assets/projects/remote_sensing1.png"
+            alt="alt text"
+            height="100%"
+            width="100%"
+          > 
+        </a-col>
+      </a-row>
+      <a-divider />
+      <a-row :gutter="[16,48]" type="flex" align="bottom">
+        <a-col :span="12">
+          <span class="themeTitle">Bayesian Learning</span>
+          Recently, Graph Convolutional Networks (GCNs) have been used to address node and graph classification and matrix completion. Brain disease prediction, 
+          which requires graph representation, also achieved effective results using the GCN. However, 
+          the current implementations have limited capability to incorporate uncertainty in the graph structure. 
+          Bayesian-GCN views the observed graph as a realization from a parametric family of random graphs. 
+          It targets inference of the joint posterior of the random graph parameters and the node (or graph) labels using Bayes’ theorem.
+        </a-col>
+        <a-col :span="12">
+          <img 
+            src="../assets/projects/gcn.png"
+            alt="alt text"
+            height="100%"
+            width="100%"
+          > 
+        </a-col>
+      </a-row>
+      <a-divider />
+      <a-row :gutter="[16,48]" type="flex" align="top">
+        <a-col :span="12">
+          <span class="themeTitle">Neural Network Achitectures</span>
+          Neural Networks are everywhere nowadays, being able to fit any arbitrary function in order to discern some truth about the underlying data. When designing a Neural Network, 
+          the choice of architecture is of utmost importance, since a network too large would result in a network unable to generalize to other data, 
+          and a network too small would be unable to accurately reflect the underlying data distribution.
+        </a-col>
+        <a-col :span="12">
+          <img 
+            src="../assets/projects/neural1.png"
+            alt="alt text"
+            height="100%"
+            width="100%"
+          > 
+        </a-col>
+      </a-row>
+    </div>
 
-          Applicants should have, e.g., a PhD in electrical or electronics or
-          information engineering with a specialization in signal processing or
-          statistical learning, or a PhD in mathematics (topology, statistics,
-          functional analysis). You should have a track record in your research
-          field, as evidenced by publications in top quality journals. To apply
-          for this position, please send your CV, a one-page personal statement,
-          full contact details of two referees, transcripts and publications to
-          kuruoglu@sz.tsinghua.edu.cn
-        </p>
-      </li>
-    </ul>
-
+    <h2>Completed Projects</h2>
+      <ul>
+        <li>
+          <p>
+            SARS-CoV-2 Gene Sequence Mutations Modeling:
+            <a href="https://github.com/mavericklim91/Modeling-SARS-CoV-2-Nucleotide-Mutations"
+              >Stochastic Approach</a
+            >,
+            <a href="https://github.com/mavericklim91/Modeling-SARS-CoV-2-viral-escape-mutations"
+              >Data-driven Approach</a
+            >
+          </p>
+        </li>
+        <li>
+          <p>
+            <a
+              href="https://github.com/poorichc/A-Metaheuristic-Approach-to-the-Multi-period-Reliable-Location-Problem-in-Time-Varying-Risk"
+              >Metaheuristic Approach for Multi-period Reliable Location Problem in Time-Varying Risk</a
+            >
+          </p>
+        </li>
+        <li>
+          <p>
+            <a href="geo.html">Data Science for Geosciences</a>
+          </p>
+        </li>
+      </ul>
   </div>
 </template>
 
@@ -144,20 +216,30 @@ export default {
   display: none;
 }
 .ant-carousel >>> .custom-slick-arrow:hover {
-  opacity: 0.5;
+  opacity: 1;
 }
 
-h3 {
-  margin: 40px 0 0;
+.themeTitle {
+  font-size: larger;
+  font-weight: 700;
+  display: block;
+  margin: 10px 0 10px 0;
 }
-ul {
+
+h2 {
+  text-align: center;
+  margin: 20px 0 10px 0;
+}
+
+
+/* ul {
   list-style-type: none;
   padding: 0;
 }
 li {
   display: inline-block;
   margin: 0 10px;
-}
+} */
 a {
   color: #42b983;
 }

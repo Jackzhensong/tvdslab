@@ -1,96 +1,56 @@
 <template>
   <div class="textlayout">
-    <td>
-      <h2>Themes
-      </h2>
-      <ul>
-        <li>
-          <p>Statistical Signal and Image Processing</p>
-        </li>
-        <li>
-          <p>Bayesian Learning and Statistical Machine Learning</p>
-        </li>
-        <li>
-          <p>Data Science for Computational Biology and Geosciences</p>
-        </li>
-        <li>
-          <p>Remote Sensing</p>
-        </li>
-        <li>
-          <p>System and Noise Modelling</p>
-        </li>
-        <li>
-          <p>Graphical Models</p>
-        </li>
-        <li>
-          <p>Information and Coding Theory</p>
-        </li>
-      </ul>
-      <h2>Ongoing Projects</h2>
-      <ul>
-        <li>
-          <p>
-            <a href="stochastic_graphs.html" target="&ldquo;blank&rdquo;"
-              >Stochastic Graphs</a
-            >
-          </p>
-        </li>
-        <li>
-          <p>
-            <a href="remote_sensing.html" target="&ldquo;blank&rdquo;"
-              >Remote Sensing</a
-            >
-          </p>
-        </li>
-        <li>
-          <p>
-            <a href="bl.html" target="&ldquo;blank&rdquo;">Bayesian Learning</a>
-          </p>
-        </li>
-        <li>
-          <p>
-            <a href="neural.html" target="&ldquo;blank&rdquo;"
-              >Network Architectures</a
-            >
-          </p>
-        </li>
-      </ul>
-      <h2>Completed Projects</h2>
-      <ul>
-        <li>
-          <p>
-            SARS-CoV-2 Gene Sequence Mutations Modeling:
-            <a
-              href="https://github.com/mavericklim91/Modeling-SARS-CoV-2-Nucleotide-Mutations"
-              target="&ldquo;blank&rdquo;"
-              >Stochastic Approach</a
-            >,
-            <a
-              href="https://github.com/mavericklim91/Modeling-SARS-CoV-2-viral-escape-mutations"
-              target="&ldquo;blank&rdquo;"
-              >Data-driven Approach</a
-            >
-          </p>
-        </li>
-        <li>
-          <p>
-            <a
-              href="https://github.com/poorichc/A-Metaheuristic-Approach-to-the-Multi-period-Reliable-Location-Problem-in-Time-Varying-Risk"
-              target="&ldquo;blank&rdquo;"
-              >Metaheuristic Approach for Multi-period Reliable Location Problem
-              in Time-Varying Risk</a
-            >
-          </p>
-        </li>
-        <li>
-          <p>
-            <a href="geo.html" target="&ldquo;blank&rdquo;"
-              >Data Science for Geosciences</a
-            >
-          </p>
-        </li>
-      </ul>
-    </td>
+    <h2>Opportunities</h2>
+    <ul>
+      <li>
+        <p>
+          Post-Doctoral Positions in Statistical Learning for Data Science<br />
+          Post-Doctoral Position (2 Years) in the Time-varying Data Science
+          Group of Prof. Ercan E Kuruoglu, Institute of Information and Data
+          Science and Tsinghua-Berkeley Shenzhen Institute of Tsinghua
+          University Shenzhen International Graduate School, Shenzhen, China.
+          This will start from 1 September 2023 and applications are considered
+          until the positions are filled. <br />
+        </p>
+      </li>
+      <li>
+        <p>
+          Postdoc 1: Topological Data Analysis for Statistical Learning<br />
+          Keywords: Topological data analysis, graph machine learning,
+          time-varying graph analysis, rare event modelling<br />
+          The objective is to develop ground-breaking topological signal
+          processing and statistical learning methods for high-dimensional data.
+          The focus lies on conducting fundamental research to derive scalable
+          methods with robustness and statistical guarantees that form a bridge
+          between existing topological data analysis methods and statistical
+          learning methods with an eye on applications with time-varying data.
+          Various applications including climate data, financial data, genomic
+          data will be considered though the main emphasis will be in
+          methodology development.<br />
+        </p>
+      </li>
+      <li>
+        <p>
+          Postdoc 2: Stochastic deep learning <br />
+          Keywords: Bayesian machine learning, non-stationary data analysis<br />
+          This project aims to develop a deep learning methodology which is
+          dynamic and statistical at the same time, that is non-deterministic
+          and non-stationary. We will explore various methods from signal
+          processing extending them to nonlinear systems and hence applying to
+          neural networks.<br />
+          <br />
+
+          Applicants should have, e.g., a PhD in electrical or electronics or
+          information engineering with a specialization in signal processing or
+          statistical learning, or a PhD in mathematics (topology, statistics,
+          functional analysis). You should have a track record in your research
+          field, as evidenced by publications in top quality journals. To apply
+          for this position, please send your CV, a one-page personal statement,
+          full contact details of two referees, transcripts and publications to
+          kuruoglu@sz.tsinghua.edu.cn
+        </p>
+      </li>
+    </ul>
   </div>
 </template>
 

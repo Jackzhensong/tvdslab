@@ -20,7 +20,7 @@
             href="https://www.tbsi.edu.cn/main.htm"
             target="&ldquo;blank&rdquo;"
             >Tsinghua-Berkeley Shenzhen Institute</a
-          >
+          ><br />
           <a href="biography.html" >Biography</a>
         </a-col>
       </a-row>
