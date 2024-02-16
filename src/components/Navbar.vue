@@ -43,15 +43,15 @@ export default {
   //     this.current = arr;
   //   }
   // },
-  watch: {
-    $route(to, from) {
-      if (this.$route.path.substring(1)) {
-        var arr = [];
-        arr.push(this.$route.path.substring(1));
-        this.current = arr;
-      }
-    }
-  },
+  // watch: {
+  //   $route(to, from) {
+  //     if (this.$route.path.substring(1)) {
+  //       var arr = [];
+  //       arr.push(this.$route.path.substring(1));
+  //       this.current = arr;
+  //     }
+  //   }
+  // },
   methods: {
     pushmenu(item) {
       this.$router.push({
@@ -113,7 +113,7 @@ export default {
   font-size: 25px;
   font-weight: 500;
   color: #061d34;
-  cursor: pointer;
+  //cursor: pointer;
 }
 .menu {
   left: -100px;
