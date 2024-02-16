@@ -22,6 +22,11 @@ export default {
   components: {
     Navbar,
     Footer
+  },
+  created() {
+    if(this.$router.path !== '/index'){
+      this.$router.replace('/index')
+    }
   }
 }
 </script>
