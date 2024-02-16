@@ -33,8 +33,8 @@
               <img
                 alt="example"
                 src="../assets/photo/yanyi.jpg"
-                width="150px"
-                height="160px"
+                width="120px"
+                height="130px"
               />
               <a-card-meta title="Yan Yi">
                 <template slot="description">
@@ -47,8 +47,8 @@
               <img
                 alt="example"
                 src="../assets/photo/Dayu Qin.jpg"
-                width="150px"
-                height="160px"
+                width="120px"
+                height="130px"
               />
               <a-card-meta title="Dayu Qin">
                 <template slot="description">
@@ -61,8 +61,8 @@
               <img
                 alt="example"
                 src="../assets/photo/Junping.jpg"
-                width="150px"
-                height="160px"
+                width="120px"
+                height="130px"
               />
               <a-card-meta title="Junping Hong">
                 <template slot="description">
@@ -79,8 +79,8 @@
             <img
               src="../assets/photo/LIMutong.jpg"
               alt="alt text"
-              width="150px"
-              height="160px"
+              width="120px"
+              height="130px"
             />
             <a-card-meta title="Mutong Li">
                 <template slot="description">
@@ -93,8 +93,8 @@
             <img
               src="../assets/photo/JunLin Guo.jpg"
               alt="alt text"
-              width="150px"
-              height="160px"
+              width="120px"
+              height="130px"
             />
             <a-card-meta title="Junlin Guo">
                 <template slot="description">
@@ -107,8 +107,8 @@
             <img
               src="../assets/photo/Radwa Adel.jpg"
               alt="alt text"
-              width="150px"
-              height="160px"
+              width="120px"
+              height="130px"
             />
             <a-card-meta title="Radwa Adel">
                 <template slot="description">
@@ -124,8 +124,8 @@
             <img
               src="../assets/photo/Mengen Luo.jpg"
               alt="alt text"
-              width="150px"
-              height="160px"
+              width="120px"
+              height="130px"
             />
             <a-card-meta title="Mengen Luo">
                 <template slot="description">
@@ -138,8 +138,8 @@
             <img
               src="../assets/photo/Zhendong Shi.jpg"
               alt="alt text"
-              width="150px"
-              height="160px"
+              width="120px"
+              height="130px"
             />
             <a-card-meta title="Zhendong Shi">
                 <template slot="description">
@@ -152,8 +152,8 @@
             <img
               src="../assets/photo/Fengfan Zhao.jpg"
               alt="alt text"
-              width="150px"
-              height="160px"
+              width="120px"
+              height="130px"
             />
             <a-card-meta title="Fengfan Zhao">
                 <template slot="description">
@@ -169,8 +169,8 @@
             <img
               src="../assets/photo/pengchangran.jpg"
               alt="alt text"
-              width="150px"
-              height="160px"
+              width="120px"
+              height="130px"
             />
             <a-card-meta title="peng changran">
                 <template slot="description">
@@ -183,8 +183,8 @@
             <img
               src="../assets/photo/PeterMarsh.jpg"
               alt="alt text"
-              width="150px"
-              height="160px"
+              width="120px"
+              height="130px"
             />
             <a-card-meta title="Peter Marsh">
                 <template slot="description">
@@ -197,8 +197,8 @@
             <img
               src="../assets/photo/Yuan Xueqiong.jpg"
               alt="alt text"
-              width="150px"
-              height="160px"
+              width="120px"
+              height="130px"
             />
             <a-card-meta title="Yuan Xueqiong">
                 <template slot="description">
@@ -214,8 +214,8 @@
             <img
               src="../assets/photo/Yuan Chaohao.jpg"
               alt="alt text"
-              width="150px"
-              height="160px"
+              width="120px"
+              height="130px"
             />
             <a-card-meta title="Yuan Chaohao">
                 <template slot="description">
@@ -228,8 +228,8 @@
             <img
               src="../assets/photo/dongdong nian.jpg"
               alt="alt text"
-              width="150px"
-              height="160px"
+              width="120px"
+              height="130px"
             />
             <a-card-meta title="dongdong nian">
                 <template slot="description">
@@ -242,8 +242,8 @@
             <img
               src="../assets/photo/Li Jipeng.jpg"
               alt="alt text"
-              width="150px"
-              height="160px"
+              width="120px"
+              height="130px"
             />
             <a-card-meta title="Li Jipeng">
                 <template slot="description">
@@ -259,8 +259,8 @@
             <img
               src="../assets/photo/Suchanun Piriyasatit.jpg"
               alt="alt text"
-              width="150px"
-              height="160px"
+              width="120px"
+              height="130px"
             />
             <a-card-meta title="Suchanun Piriyasatit">
                 <template slot="description">
@@ -273,8 +273,8 @@
             <img
               src="../assets/photo/Suchanuch Piriyasatit.jpg"
               alt="alt text"
-              width="150px"
-              height="160px"
+              width="120px"
+              height="130px"
             />
             <a-card-meta title="Suchanuch Piriyasatit">
                 <template slot="description">
@@ -287,8 +287,8 @@
             <img
               src="../assets/photo/menghaozhu.jpg"
               alt="alt text"
-              width="150px"
-              height="160px"
+              width="120px"
+              height="130px"
             />
             <a-card-meta title="menghao zhu">
                 <template slot="description">
@@ -307,8 +307,8 @@
             <img
               src="../assets/photo/MaverickLim.jpg"
               alt="alt text"
-              width="150px"
-              height="160px"
+              width="120px"
+              height="130px"
             />&nbsp;
           </td>
           <td align="left">
@@ -328,8 +328,8 @@
             <img
               src="../assets/photo/PoorichC.jpg"
               alt="alt text"
-              width="150px"
-              height="160px"
+              width="120px"
+              height="130px"
             />&nbsp;
           </td>
           <td align="left">
@@ -349,8 +349,8 @@
             <img
               src="../assets/photo/JackKuo.jpg"
               alt="alt text"
-              width="150px"
-              height="160px"
+              width="120px"
+              height="130px"
             />&nbsp;
           </td>
           <td align="left">
@@ -371,8 +371,8 @@
             <img
               src="../assets/photo/keren.jpg"
               alt="alt text"
-              width="150px"
-              height="160px"
+              width="120px"
+              height="130px"
             />&nbsp;
           </td>
           <td align="left">

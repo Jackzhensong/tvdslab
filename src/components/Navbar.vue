@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <a-row :gutter="24" class="clos">
+    <a-row class="clos">
       <a-col :span="6" style="left: 10px">
         <span @click="home" class="logoName">{{ "Time-Varying Data Science Lab" }}</span>
       </a-col>
@@ -36,6 +36,22 @@ export default {
       current: ["index"],
     };
   },
+  mounted() {
+    if (this.$route.path.substring(1)) {
+      var arr = [];
+      arr.push(this.$route.path.substring(1));
+      this.current = arr;
+    }
+  },
+  watch: {
+    $route(to, from) {
+      if (this.$route.path.substring(1)) {
+        var arr = [];
+        arr.push(this.$route.path.substring(1));
+        this.current = arr;
+      }
+    }
+  },
 
   methods: {
     pushmenu(item) {
@@ -60,23 +76,19 @@ export default {
   margin: 0px 0px 0px 0;
   float: left;
 }
-
 .lineHeight {
   line-height: 65px;
   display: inline-block;
   box-sizing: border-box;
 }
-
 .clos {
   height: 65px;
   line-height: 65px;
 }
-
 .narlog {
   font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 20px;
 }
-
 .header {
   width: 100%;
   height: 65px;
@@ -102,7 +114,7 @@ export default {
   font-size: 25px;
   font-weight: 500;
   color: #061d34;
-  // cursor: pointer;
+  cursor: pointer;
 }
 .menu {
   left: -100px;
@@ -118,18 +130,16 @@ export default {
   border-bottom: 2px solid #fff;
   font-size: 16px;
 }
-
 .setting {
   margin-left: 20px;
   font-size: 18px;
   vertical-align: middle;
   cursor: pointer;
 }
-
-.avatar {
-  margin-left: 20px;
-  vertical-align: middle;
-  cursor: pointer;
-}
+// .avatar {
+//   margin-left: 20px;
+//   vertical-align: middle;
+//   cursor: pointer;
+// }
 </style>
   

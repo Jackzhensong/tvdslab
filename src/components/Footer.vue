@@ -2,7 +2,6 @@
   <div class="footer">
     <div class="footer-container">
       <div class="footer-list">
-
         <div class="Copyright"> 
           <ul class="helpLink">
             <li>About us
@@ -12,7 +11,7 @@
           </ul>
           <p>Secretary: Shengnan Li, lishengnan@sz.tsinghua.edu.cn</p>
           <p>Address: Information Building, Room 1106, Tsinghua Shenzhen International Graduate School, Shenzhen, Guangdong, China (518055)</p>
-          <p>版权所有 © 清华 - 伯克利深圳学院 粤ICP备18046147号-1</p>
+          <p>Copyright © TBSI All Rights Reserved 粤ICP备18046147号-1</p>
         </div>
       </div>
     </div>
@@ -41,21 +40,21 @@ export default{
       border-bottom: 1px solid #e4e1e1;
       border-top: 1px solid #e4e1e1;
       overflow: hidden;
-      padding-left: 40px;
+      padding-left: 70px;
 
       .footer-item {
         width: 16.666667%;
         float: left;
 
-        h4 {
-          font-size: 14px;
-        }
+        // h4 {
+        //   font-size: 14px;
+        // }
 
-        .footer-item-con {
-          li {
-            line-height: 18px;
-          }
-        }
+        // .footer-item-con {
+        //   li {
+        //     line-height: 18px;
+        //   }
+        // }
       }
     }
     .Copyright {
@@ -66,6 +65,8 @@ export default{
 
         li {
           display: inline;
+          font-size: 16px;
+          font-weight: bold;
 
           .space {
               border-left: 1px solid #666;
