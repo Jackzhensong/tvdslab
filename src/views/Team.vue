@@ -18,10 +18,9 @@
           Time-Varying Data Science (TVDS) Group<br />
           <a  
             href="https://www.tbsi.edu.cn/main.htm"
-            target="&ldquo;blank&rdquo;"
             >Tsinghua-Berkeley Shenzhen Institute</a
           ><br />
-          <a href="biography.html" >Biography</a>
+          <a href="https://www.tbsi.edu.cn/ercankuruoglu/main.htm" >Biography</a>
         </a-col>
       </a-row>
       </div>
