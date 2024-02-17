@@ -25,15 +25,15 @@ VueRouter.prototype.push = function (location, resolve, reject) { // 如果用�
     originPush.call(this, location, () => {}, () => {});
   }
 };
-// 重写replace方法
-// VueRouter.prototype.replace = function (location, resolve, reject) {
-//   if (resolve && reject) {
-//     originReplace.call(this, location, resolve, reject);
-//   } 
-//   else {
-//     originReplace.call(this, location, () => {}, () => {});
-//   }
-// }
+//重写replace方法
+VueRouter.prototype.replace = function (location, resolve, reject) {
+  if (resolve && reject) {
+    originReplace.call(this, location, resolve, reject);
+  } 
+  else {
+    originReplace.call(this, location, () => {}, () => {});
+  }
+}
 
 const routes = [
   {
