@@ -1,10 +1,10 @@
 <template>
   <div class="header">
     <a-row class="clos">
-      <a-col :span="6" style="left: 10px">
+      <a-col  :xs="16" :sm="16" :md="16" :lg="5" :xl="6" :xll="4">
         <span @click="home" class="logoName">{{ "Time-Varying Data Science Lab" }}</span>
       </a-col>
-      <a-col :span="18" class="menu">
+      <a-col class="menu" :xs="8" :sm="8" :md="8" :lg="19" :xl="18" :xll="20">
         <a-menu
           v-model="current"
           mode="horizontal"
