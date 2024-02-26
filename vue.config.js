@@ -14,8 +14,8 @@ module.exports = {
     },
   },
   // transpileDependencies: true
-  publicPath: process.env.NODE_ENV === "production" ? "/tvdslab/" : "/",
-  // publicPath: '/',
+  // publicPath: process.env.NODE_ENV === "production" ? "/tvdslab/" : "/",
+  publicPath: '/',
   outputDir: 'dist',
   assetsDir: 'assets',
   lintOnSave: process.env.NODE_ENV === 'development',

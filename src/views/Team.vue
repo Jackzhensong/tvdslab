@@ -25,10 +25,13 @@
       </a-row>
       </div>
       <a-divider />
+      <h2>PostDoc Students</h2>
+      <a-divider />
+
       <h2>Ph.D. Students</h2>
       <div style="margin-top: 0px; margin-bottom: 20px;"> 
-        <a-row type="flex" :gutter="20">
-          <a-col :span="8">
+        <a-row type="flex" :gutter="[30, 20]">
+          <a-col :span="6">
               <img
                 alt="example"
                 src="../assets/photo/yanyi.jpg"
@@ -37,43 +40,61 @@
               />
               <a-card-meta title="Yan Yi">
                 <template slot="description">
+                  Year: 2020  <br/>
                   Research Area:   <br/>
-                  Email:
                 </template>
               </a-card-meta>
           </a-col>
-          <a-col :span="8">
+          <a-col :span="6">
               <img
                 alt="example"
                 src="../assets/photo/Dayu Qin.jpg"
                 width="120px"
                 height="130px"
               />
-              <a-card-meta title="Dayu Qin">
+              <a-card-meta title="Qin Dayu">
                 <template slot="description">
+                  Year: 2022 <br/>
                   Research Area:   <br/>
-                  Email:
+                  
                 </template>
               </a-card-meta>
           </a-col>
-          <a-col :span="8">
+          <a-col :span="6">
               <img
                 alt="example"
                 src="../assets/photo/Junping.jpg"
                 width="120px"
                 height="130px"
               />
-              <a-card-meta title="Junping Hong">
+              <a-card-meta title="Hong Junping">
                 <template slot="description">
+                  Year: 2023 <br/>
                   Research Area:   <br/>
-                  Email:
+                  
+                </template>
+              </a-card-meta>
+          </a-col>
+          <a-col :span="6">
+              <img
+                alt="example"
+                src="../assets/photo/Jiang Yutong.jpg"
+                width="120px"
+                height="130px"
+              />
+              <a-card-meta title="Jiang Yutong">
+                <template slot="description">
+                  Year: 2023 <br/>
+                  Research Area:   <br/>
+                  
                 </template>
               </a-card-meta>
           </a-col>
         </a-row>
         <a-divider />
+
         <h2>Master Students</h2>
-        <a-row type="flex" :gutter="20">
+        <a-row type="flex" :gutter="[30, 20]">
           <a-col :span="8">
             <img
               src="../assets/photo/LIMutong.jpg"
@@ -81,24 +102,11 @@
               width="120px"
               height="130px"
             />
-            <a-card-meta title="Mutong Li">
+            <a-card-meta title="Li Mutong">
                 <template slot="description">
+                  Year: 2022 <br/>
                   Research Area:   <br/>
-                  Email:
-                </template>
-              </a-card-meta>
-          </a-col>
-          <a-col :span="8">
-            <img
-              src="../assets/photo/JunLin Guo.jpg"
-              alt="alt text"
-              width="120px"
-              height="130px"
-            />
-            <a-card-meta title="Junlin Guo">
-                <template slot="description">
-                  Research Area:   <br/>
-                  Email:
+                  
                 </template>
               </a-card-meta>
           </a-col>
@@ -111,14 +119,12 @@
             />
             <a-card-meta title="Radwa Adel">
                 <template slot="description">
+                  Year:  2021<br/>
                   Research Area:   <br/>
-                  Email:
+                  
                 </template>
               </a-card-meta>
           </a-col>
-        </a-row>
-
-        <a-row type="flex" :gutter="20">
           <a-col :span="8">
             <img
               src="../assets/photo/Mengen Luo.jpg"
@@ -126,27 +132,17 @@
               width="120px"
               height="130px"
             />
-            <a-card-meta title="Mengen Luo">
+            <a-card-meta title="Luo Mengen">
                 <template slot="description">
+                  Year: 2021 <br/>
                   Research Area:   <br/>
-                  Email:
+                  
                 </template>
               </a-card-meta>
           </a-col>
-          <a-col :span="8">
-            <img
-              src="../assets/photo/Zhendong Shi.jpg"
-              alt="alt text"
-              width="120px"
-              height="130px"
-            />
-            <a-card-meta title="Zhendong Shi">
-                <template slot="description">
-                  Research Area:   <br/>
-                  Email:
-                </template>
-              </a-card-meta>
-          </a-col>
+        </a-row>
+
+        <a-row type="flex" :gutter="[30, 20]">
           <a-col :span="8">
             <img
               src="../assets/photo/Fengfan Zhao.jpg"
@@ -154,16 +150,14 @@
               width="120px"
               height="130px"
             />
-            <a-card-meta title="Fengfan Zhao">
+            <a-card-meta title="Zhao Fengfan">
                 <template slot="description">
+                  Year: 2021 <br/>
                   Research Area:   <br/>
-                  Email:
+                  
                 </template>
               </a-card-meta>
           </a-col>
-        </a-row>
-
-        <a-row type="flex" :gutter="20">
           <a-col :span="8">
             <img
               src="../assets/photo/pengchangran.jpg"
@@ -171,10 +165,11 @@
               width="120px"
               height="130px"
             />
-            <a-card-meta title="peng changran">
+            <a-card-meta title="Peng Changran">
                 <template slot="description">
+                  Year: 2021 <br/>
                   Research Area:   <br/>
-                  Email:
+                  
                 </template>
               </a-card-meta>
           </a-col>
@@ -187,11 +182,15 @@
             />
             <a-card-meta title="Peter Marsh">
                 <template slot="description">
+                  Year: 2021 <br/>
                   Research Area:   <br/>
-                  Email:
+                  
                 </template>
               </a-card-meta>
           </a-col>
+        </a-row>
+
+        <a-row type="flex" :gutter="[30, 20]">
           <a-col :span="8">
             <img
               src="../assets/photo/Yuan Xueqiong.jpg"
@@ -201,14 +200,12 @@
             />
             <a-card-meta title="Yuan Xueqiong">
                 <template slot="description">
+                  Year: 2022 <br/>
                   Research Area:   <br/>
-                  Email:
+                  
                 </template>
               </a-card-meta>
           </a-col>
-        </a-row>
-
-        <a-row type="flex" :gutter="20">
           <a-col :span="8">
             <img
               src="../assets/photo/Yuan Chaohao.jpg"
@@ -218,8 +215,9 @@
             />
             <a-card-meta title="Yuan Chaohao">
                 <template slot="description">
+                  Year: 2022 <br/>
                   Research Area:   <br/>
-                  Email:
+                  
                 </template>
               </a-card-meta>
           </a-col>
@@ -230,13 +228,17 @@
               width="120px"
               height="130px"
             />
-            <a-card-meta title="dongdong nian">
+            <a-card-meta title="Nian Dongdong">
                 <template slot="description">
+                  Year: 2022 <br/>
                   Research Area:   <br/>
-                  Email:
+                  
                 </template>
               </a-card-meta>
           </a-col>
+        </a-row>
+
+        <a-row type="flex" :gutter="[30, 20]">
           <a-col :span="8">
             <img
               src="../assets/photo/Li Jipeng.jpg"
@@ -246,14 +248,12 @@
             />
             <a-card-meta title="Li Jipeng">
                 <template slot="description">
+                  Year: 2022 <br/>
                   Research Area:   <br/>
-                  Email:
+                  
                 </template>
               </a-card-meta>
           </a-col>
-        </a-row>
-
-        <a-row type="flex" :gutter="20">
           <a-col :span="8">
             <img
               src="../assets/photo/Suchanun Piriyasatit.jpg"
@@ -263,8 +263,9 @@
             />
             <a-card-meta title="Suchanun Piriyasatit">
                 <template slot="description">
+                  Year: 2022 <br/>
                   Research Area:   <br/>
-                  Email:
+                  
                 </template>
               </a-card-meta>
           </a-col>
@@ -277,11 +278,15 @@
             />
             <a-card-meta title="Suchanuch Piriyasatit">
                 <template slot="description">
+                  Year: 2022 <br/>
                   Research Area:   <br/>
-                  Email:
+                  
                 </template>
               </a-card-meta>
           </a-col>
+        </a-row>
+
+        <a-row type="flex" :gutter="[30, 20]">
           <a-col :span="8">
             <img
               src="../assets/photo/menghaozhu.jpg"
@@ -289,16 +294,65 @@
               width="120px"
               height="130px"
             />
-            <a-card-meta title="menghao zhu">
+            <a-card-meta title="Zhu Menghao">
                 <template slot="description">
+                  Year: 2022 <br/>
                   Research Area:   <br/>
-                  Email:
+                  
+                </template>
+              </a-card-meta>
+          </a-col>
+          <a-col :span="8">
+            <img
+              src="../assets/photo/Song Zhenjie.jpg"
+              alt="alt text"
+              width="120px"
+              height="130px"
+            />
+            <a-card-meta title="Song Zhenjie">
+                <template slot="description">
+                  Year: 2023 <br/>
+                  Research Area:   <br/>
+                  
+                </template>
+              </a-card-meta>
+          </a-col>
+          <a-col :span="8">
+            <img
+              src="../assets/photo/Xu Chi.jpeg"
+              alt="alt text"
+              width="120px"
+              height="130px"
+            />
+            <a-card-meta title="Xu Chi">
+                <template slot="description">
+                  Year: 2023 <br/>
+                  Research Area:   <br/>
+                  
+                </template>
+              </a-card-meta>
+          </a-col>
+        </a-row>
+        <a-row type="flex" :gutter="[30, 20]">
+          <a-col :span="8">
+            <img
+              src="../assets/photo/Tang Chengyu.jpg"
+              alt="alt text"
+              width="120px"
+              height="130px"
+            />
+            <a-card-meta title="Tang Chengyu">
+                <template slot="description">
+                  Year: 2023 <br/>
+                  Research Area:   <br/>
+                  
                 </template>
               </a-card-meta>
           </a-col>
         </a-row>
       </div>
       <a-divider />
+
       <h2>Alumni</h2>
       <table class="imgtable">
         <tr>
@@ -308,7 +362,7 @@
               alt="alt text"
               width="120px"
               height="130px"
-            />&nbsp;
+            />
           </td>
           <td align="left">
             <p>
@@ -329,7 +383,7 @@
               alt="alt text"
               width="120px"
               height="130px"
-            />&nbsp;
+            />
           </td>
           <td align="left">
             <p>
@@ -350,7 +404,7 @@
               alt="alt text"
               width="120px"
               height="130px"
-            />&nbsp;
+            />
           </td>
           <td align="left">
             <p>
@@ -372,7 +426,7 @@
               alt="alt text"
               width="120px"
               height="130px"
-            />&nbsp;
+            />
           </td>
           <td align="left">
             <p>
