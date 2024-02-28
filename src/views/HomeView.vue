@@ -1,50 +1,6 @@
 <template>
   <div class="textlayout">
-    <a-carousel autoplay arrows>
-      <div
-        slot="prevArrow"
-        class="custom-slick-arrow"
-        style="left: 10px;zIndex: 1"
-      >
-        <a-icon type="left-circle" />
-      </div>
-      <div slot="nextArrow" class="custom-slick-arrow" style="right: 10px">
-        <a-icon type="right-circle" />
-      </div>
-      <div>
-        <img 
-          src="../assets/home/home1.jpg"
-          alt="alt text"
-          height="400px"
-          width="100%"
-          >
-      </div>
-      <div>        
-        <img 
-          src="../assets/home/home2.jpg"
-          alt="alt text"
-          height="400px"
-          width="100%"
-          >
-      </div>
-      <div>
-        <img 
-          src="../assets/home/home3.png"
-          alt="alt text"
-          height="400px"
-          width="100%"
-          >
-      </div>
-      <div>
-        <img 
-          src="../assets/home/home4.jpg"
-          alt="alt text"
-          height="400px"
-          width="100%"
-          >
-      </div>
-    </a-carousel>
-    <div>
+    <div style="margin-top: 85px;">
     <h2>Lab Introduction</h2>
       <a>TVDS Group</a> aims at
       studying time evolution in data science. Our research interests include
@@ -229,6 +185,10 @@ export default {
 h2 {
   text-align: center;
   margin: 20px 0 10px 0;
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #061d34;
 }
 
 

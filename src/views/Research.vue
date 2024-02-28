@@ -1,6 +1,7 @@
 <template>
   <div class="textlayout">
     <h2>Opportunities</h2>
+    <a-divider />
     <ul>
       <li>
         <p>
@@ -71,5 +72,21 @@ export default {
 .textlayout {
   margin: 70px 300px 0 300px;
   text-align: left;
+}
+.ant-divider {
+    box-sizing: border-box;
+    margin: 0 0 20px 0;
+    padding: 1px;
+    color: rgba(255, 255, 255, 0);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+    font-feature-settings: 'tnum';
+    background: #428bca;
+}
+
+h2 {
+  margin: 10px 0 2px 0;
 }
 </style>
