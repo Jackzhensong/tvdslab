@@ -2,35 +2,40 @@
   <div class="textlayout">
     <div style="margin-top: 85px;">
     <h2>Lab Introduction</h2>
-      <a>TVDS Group</a> aims at
-      studying time evolution in data science. Our research interests include
-      Statistical Signal Processing, Bayesian Learning, Computational Biology
-      and Geosciences, Remote Sensing, etc. We are looking for the people with
-      the same interest! Our research themes including but not limited to:
+    <span style="font-size: 16px; margin: 5px 0; display: block;">
+      <a>TVDS Group</a> aims at studying time evolution in data science. 
+      Our research interests include Statistical Signal Processing, 
+      Bayesian Learning, Computational Biology and Geosciences, Remote Sensing, etc. 
+      We are looking for the people with the same interest! Our research themes 
+      including but not limited to:
+    </span>
       <ul>
+        <span style="font-size: 16px; margin: 5px 0; display: block;">
         <li>
-          <p>Statistical Signal and Image Processing</p>
+          Statistical Signal and Image Processing
         </li>
         <li>
-          <p>Bayesian Learning and Statistical Machine Learning</p>
+          Bayesian Learning and Statistical Machine Learning
         </li>
         <li>
-          <p>Data Science for Computational Biology and Geosciences</p>
+          Data Science for Computational Biology and Geosciences
         </li>
         <li>
-          <p>Remote Sensing</p>
+          Remote Sensing
         </li>
         <li>
-          <p>System and Noise Modelling</p>
+          System and Noise Modelling
         </li>
         <li>
-          <p>Graphical Models</p>
+          Graphical Models
         </li>
         <li>
-          <p>Information and Coding Theory</p>
+          Information and Coding Theory
         </li>
+      </span>
       </ul>
     </div>
+
     <h2>Ongoing Projects</h2>
     <div> 
       <a-row :gutter="[16,48]" type="flex" align="bottom">
@@ -108,30 +113,24 @@
 
     <h2>Completed Projects</h2>
       <ul>
-        <li>
-          <p>
-            SARS-CoV-2 Gene Sequence Mutations Modeling:
+        <span style="font-size: 14px; margin: 5px 0; display: block;">
+          <li>
+              SARS-CoV-2 Gene Sequence Mutations Modeling:
             <a href="https://github.com/mavericklim91/Modeling-SARS-CoV-2-Nucleotide-Mutations"
-              >Stochastic Approach</a
-            >,
+              >Stochastic Approach</a>
             <a href="https://github.com/mavericklim91/Modeling-SARS-CoV-2-viral-escape-mutations"
-              >Data-driven Approach</a
-            >
-          </p>
-        </li>
-        <li>
-          <p>
-            <a
-              href="https://github.com/poorichc/A-Metaheuristic-Approach-to-the-Multi-period-Reliable-Location-Problem-in-Time-Varying-Risk"
-              >Metaheuristic Approach for Multi-period Reliable Location Problem in Time-Varying Risk</a
-            >
-          </p>
-        </li>
-        <li>
-          <p>
-            <a href="geo.html">Data Science for Geosciences</a>
-          </p>
-        </li>
+              >Data-driven Approach</a>
+          </li>
+          <li>
+          <a
+            href="https://github.com/poorichc/A-Metaheuristic-Approach-to-the-Multi-period-Reliable-Location-Problem-in-Time-Varying-Risk"
+            >Metaheuristic Approach for Multi-period Reliable Location Problem in Time-Varying Risk</a
+          >
+          </li>
+          <li>
+            <a href="https://ieeexplore.ieee.org/abstract/document/10214355">Data Science for Geosciences</a>
+          </li>
+        </span>
       </ul>
   </div>
 </template>
@@ -191,6 +190,9 @@ h2 {
   color: #061d34;
 }
 
+li {
+  margin: 10px 0 0 0;
+}
 
 /* ul {
   list-style-type: none;

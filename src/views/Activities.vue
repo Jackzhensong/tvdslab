@@ -44,17 +44,13 @@ export default {
 .title {
   margin: 20px 0 20px 0;
 }
-.ant-divider {
-    box-sizing: border-box;
-    margin: 0 0 20px 0;
-    padding: 1px;
-    color: rgba(255, 255, 255, 0);
-    font-size: 14px;
-    font-variant: tabular-nums;
-    line-height: 1.5;
-    list-style: none;
-    font-feature-settings: 'tnum';
-    background: #428bca;
+.ant-divider-horizontal {
+    display: block;
+    clear: both;
+    width: 100%;
+    min-width: 100%;
+    height: 1px;
+    margin: 0 0 15px;
 }
 
 h2 {
