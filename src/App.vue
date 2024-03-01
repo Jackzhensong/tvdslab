@@ -1,15 +1,12 @@
 <template>
-  <div id="app">
-    <!-- <nav> -->
-      <router-link to="/index"></router-link>
-      <router-link to="/publications"></router-link>
-      <router-link to="/team"></router-link>
-      <router-link to="/research"></router-link>
-      <router-link to="/activities"></router-link>
-    <!-- </nav> -->
-    <router-view />
-    <Navbar></Navbar>
-    <Footer></Footer>
+  <div style="overflow-x: hidden;position: relative;">
+    <div id="app">
+      <Navbar style="z-index:5"></Navbar>
+      <!-- <v-content> -->
+      <router-view></router-view>
+      <!-- </v-content> -->
+      <Footer></Footer>
+    </div>
   </div>
 </template>
 
@@ -18,15 +15,10 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
     Navbar,
     Footer
-  },
-  created() {
-    if(this.$router.path !== '/index'){
-      this.$router.replace('/index')
-    }
   }
 }
 </script>

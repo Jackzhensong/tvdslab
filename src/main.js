@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
-import router from './router/index'
+import router from './router'
+// import vuetify from "./plugins/vuetify";
+
+Vue.config.productionTip = false
 
 // import Antd from 'ant-design-vue'
 // import 'ant-design-vue/dist/antd.css'
@@ -27,13 +30,12 @@ Vue.use(Divider)
 Vue.use(Carousel)
 
 
-// Vue.component("Col", Col);
 // Vue.use(Antd)
 // Vue.use(VueRouter)
-Vue.config.productionTip = false
 
 
 new Vue({
   router,
+  // vuetify,
   render: h => h(App)
 }).$mount('#app')

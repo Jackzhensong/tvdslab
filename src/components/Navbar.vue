@@ -33,20 +33,9 @@ export default {
   components: {},
   data() {
     return {
+      showFlag: false,
       current: ["index"],
     };
-  },
-  // created() {
-  //   if (this.$route.path.substring(1)) {
-  //     var arr = [];
-  //     arr.push(this.$route.path.substring(1));
-  //     this.current = arr;
-  //   }
-  // },
-  created() {
-    if(this.$router.path !== '/index'){
-      this.$router.replace('/index')
-    }
   },
   watch: {
     $route(to, from) {
@@ -58,15 +47,30 @@ export default {
     }
   },
   methods: {
-    pushmenu(item) {
-      this.$router.push({
-        path: "/" + item.key,
-      });
+    pushmenu(item, flag) {
+      if (flag) {
+        if (this.$route.path !== "/" + item) {
+          this.$route.push({
+            path: "/" + item
+          });
+        }
+        this.showFlag = false;
+      }
+      else {
+        if (this.$route.path !== "/" + item.key) {
+          this.$router.push({
+            path: "/" + item.key,
+          });
+        }
+      }
     },
-    home() {
-      this.$router.push({
-        path: "/",
-      });
+    home() { 
+      if (this.$route.path !== "/") {
+        this.$router.push({
+          path: "/",
+        });
+      }
+      this.showFlag = false;
     },
   },
 };
