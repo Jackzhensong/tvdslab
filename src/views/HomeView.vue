@@ -117,7 +117,7 @@
           <li>
               SARS-CoV-2 Gene Sequence Mutations Modeling:
             <a href="https://github.com/mavericklim91/Modeling-SARS-CoV-2-Nucleotide-Mutations"
-              >Stochastic Approach</a>
+              >Stochastic Approach, </a>
             <a href="https://github.com/mavericklim91/Modeling-SARS-CoV-2-viral-escape-mutations"
               >Data-driven Approach</a>
           </li>

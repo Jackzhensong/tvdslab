@@ -23,7 +23,7 @@ export default {
     Navbar,
     Footer
   },
-  created() {
+  mounted() {
     if(this.$router.path !== '/index'){
       this.$router.replace('/index')
     }

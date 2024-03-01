@@ -43,6 +43,11 @@ export default {
   //     this.current = arr;
   //   }
   // },
+  created() {
+    if(this.$router.path !== '/index'){
+      this.$router.replace('/index')
+    }
+  },
   watch: {
     $route(to, from) {
       if (this.$route.path.substring(1)) {
