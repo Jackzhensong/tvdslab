@@ -38,12 +38,13 @@ VueRouter.prototype.replace = function (location, resolve, reject) {
 const routes = [
   {
     path: '/',
-    redirect: '/index',
+    name: 'home',
+    component: HomeView
   },
   {
     path: '/index',
-    name: 'home',
-    component: HomeView
+    redirect: '/'
+    // redirect: '/index',
   },
   {
     path: '/research',
@@ -52,10 +53,18 @@ const routes = [
     // component: () => import('../views/Research.vue')
   },
   {
+    path: '/research',
+    redirect: '/'
+  },
+  {
     path: '/team',
     name: 'team',
     component: Team
     // component: () => import('../views/Team.vue')
+  },
+  {
+    path: '/team',
+    redirect: '/'
   },
   {
     path: '/publications',
@@ -64,10 +73,18 @@ const routes = [
     // component: () => import('../views/Publications.vue')
   },
   {
+    path: '/publications',
+    redirect: '/'
+  },
+  {
     path: '/activities',
     name: 'activities',
     component: Activities
     // component: () => import('../views/Activities.vue')
+  },
+  {
+    path: '/activities',
+    redirect: '/'
   },
   // {
   //   path: '/about',
