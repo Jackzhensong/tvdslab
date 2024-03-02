@@ -71,15 +71,6 @@
         <a-divider />
         <a-col :span="22" :offset="2">
             <span class="pubtitle">
-              Adaptive Message Passing Sign Algorithm.
-            </span> 
-            <br />
-            C Peng, Y Yan, <b>E KURUOGLU</b>.  <br />
-            Temporal Graph Learning Workshop@ NeurIPS 2023.<br />
-        </a-col>
-        <a-divider />
-        <a-col :span="22" :offset="2">
-            <span class="pubtitle">
               Online Signal Estimation on the Graph Edges via Line Graph Transformation. 
             </span> 
             <br />
@@ -179,26 +170,6 @@
         <a-divider />
         <a-col :span="22" :offset="2">
             <span class="pubtitle">
-              Fast and robust wind speed prediction under impulsive noise via adaptive graph-sign diffusion.
-            </span> 
-            <br />
-            Y Yan, <b>EE Kuruoglu</b>.  <br />
-            In: 2023 IEEE Conference on Artificial Intelligence (CAI), 302-305.
-        </a-col>
-        <a-divider />
-        <a-col :span="22" :offset="2">
-            <span class="pubtitle">
-              SDG-L: A Semiparametric Deep Gaussian Process based Framework for Battery Capacity Prediction.
-            </span> 
-            <br />
-            H Liu, Y Wu, Y Li, <b>EE Kuruoglu</b>, X Zhang.  <br />
-            In: ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and ….
-        </a-col>
-        <a-divider />
-
-
-        <a-col :span="22" :offset="2">
-            <span class="pubtitle">
               Modeling SARS-CoV-2 nucleotide mutations as a stochastic process.
             </span> 
             <br />
@@ -222,15 +193,6 @@
             <br />
             H Zhang, Z Shi, Y Hu, W Ding, <b>EE Kuruoglu</b>, XP Zhang.  <br />
             In: arXiv preprint arXiv:2303.11959.
-        </a-col>
-        <a-divider />
-        <a-col :span="22" :offset="2">
-            <span class="pubtitle">
-              Thompson Sampling on Asymmetric -Stable Bandits.
-            </span> 
-            <br />
-            Z Shi, <b>EE Kuruoglu</b>, X Wei.  <br />
-            In: Proceedings of the 15th International Conference on Agents and Artificial ….
         </a-col>
         <a-divider />
         <a-col :span="22" :offset="2">
@@ -300,6 +262,46 @@
     <a-divider />
     <div> 
       <a-row>
+        <a-col :span="2">
+          <span class="date">2023</span>
+        </a-col>
+        <a-col :span="22">
+          <span class="pubtitle">
+            Adaptive Message Passing Sign Algorithm.
+          </span>
+          <br />
+          C Peng, Y Yan, <b>E KURUOGLU</b>.  <br />
+          In: Temporal Graph Learning Workshop@ NeurIPS 2023.
+        </a-col>
+        <a-divider />      
+        <a-col :span="22" :offset="2">
+            <span class="pubtitle">
+              Fast and robust wind speed prediction under impulsive noise via adaptive graph-sign diffusion.
+            </span> 
+            <br />
+            Y Yan, <b>EE Kuruoglu</b>.  <br />
+            In: 2023 IEEE Conference on Artificial Intelligence (CAI), 302-305.
+        </a-col>
+        <a-divider /> 
+        <a-col :span="22" :offset="2">
+            <span class="pubtitle">
+              SDG-L: A Semiparametric Deep Gaussian Process based Framework for Battery Capacity Prediction.
+            </span> 
+            <br />
+            H Liu, Y Wu, Y Li, <b>EE Kuruoglu</b>, X Zhang.  <br />
+            In: ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and ….
+        </a-col>
+        <a-divider />
+        <a-col :span="22" :offset="2">
+            <span class="pubtitle">
+              Thompson Sampling on Asymmetric -Stable Bandits.
+            </span> 
+            <br />
+            Z Shi, <b>EE Kuruoglu</b>, X Wei.  <br />
+            In: Proceedings of the 15th International Conference on Agents and Artificial ….
+        </a-col>
+        <a-divider />
+
         <a-col :span="2">
           <span class="date">2021</span>
         </a-col>
