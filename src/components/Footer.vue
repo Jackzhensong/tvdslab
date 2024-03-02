@@ -31,16 +31,16 @@ export default{
 .footer {
   background-color: #eaeaea;
   .footer-container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
+    width: 100%;
+    margin: 0 300px 0 300px;
+    padding: 0 0px;
 
     .footer-list {
       padding: 0px;
       border-bottom: 1px solid #e4e1e1;
       border-top: 1px solid #e4e1e1;
       overflow: hidden;
-      padding-left: 70px;
+      padding-left: 0px;
 
       .footer-item {
         width: 16.666667%;
@@ -58,9 +58,10 @@ export default{
       }
     }
     .Copyright {
-      padding: 20px;
+      padding: 10px 0 10px 0;
 
       .helpLink {
+        padding: 0 0 0 0;
         text-align: left;
 
         li {
@@ -79,7 +80,7 @@ export default{
       }
 
       p {
-        margin: 10px 40px;
+        margin: 10px 0px;
         text-align: left;
       }
     }

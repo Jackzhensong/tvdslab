@@ -2,9 +2,7 @@
   <div style="overflow-x: hidden;position: relative;">
     <div id="app">
       <Navbar style="z-index:5"></Navbar>
-      <!-- <v-content> -->
       <router-view></router-view>
-      <!-- </v-content> -->
       <Footer></Footer>
     </div>
   </div>
@@ -38,16 +36,4 @@ html {
   overflow-y: scroll;
 }
 
-/* nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-} */
 </style>

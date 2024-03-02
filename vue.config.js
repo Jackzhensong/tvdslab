@@ -13,7 +13,7 @@ module.exports = {
       },
     },
   },
-  transpileDependencies: ["vuetify"],
+  // transpileDependencies: ["vuetify"],
   // publicPath: process.env.NODE_ENV === "production" ? "/tvdslab/" : "/",
   publicPath: '/',
   outputDir: 'dist',

@@ -2,7 +2,7 @@
   <div class="textlayout">
     <div style="margin-top: 85px;">
     <h2>Lab Introduction</h2>
-    <span style="font-size: 16px; margin: 5px 0; display: block;">
+    <span class="textstyle">
       <a>TVDS Group</a> aims at studying time evolution in data science. 
       Our research interests include Statistical Signal Processing, 
       Bayesian Learning, Computational Biology and Geosciences, Remote Sensing, etc. 
@@ -10,7 +10,7 @@
       including but not limited to:
     </span>
       <ul>
-        <span style="font-size: 16px; margin: 5px 0; display: block;">
+        <span class="textstyle">
         <li>
           Statistical Signal and Image Processing
         </li>
@@ -181,6 +181,14 @@ export default {
   margin: 10px 0 10px 0;
 }
 
+.textstyle {
+  font-size: 16px; 
+  margin: 5px 0; 
+  display: block;
+  font-weight: 300 !important;
+  color: rgb(0, 0, 0);
+}
+
 h2 {
   text-align: center;
   margin: 20px 0 10px 0;
@@ -202,7 +210,4 @@ li {
   display: inline-block;
   margin: 0 10px;
 } */
-a {
-  color: #42b983;
-}
 </style>
